@@ -1,0 +1,14 @@
+
+.accordion-toggle .expand-button:after
+{
+  content: '\2B9F';
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.accordion-toggle.collapsed .expand-button:after
+{
+  content: '\2B9D';
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}

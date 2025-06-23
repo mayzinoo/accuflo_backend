@@ -1,0 +1,19 @@
+.dropdown-menu {
+    background-color: #ffffff !important;
+    padding: .3rem 0 !important;
+  /*   min-width: 13rem !important; */
+    font-size: 0.9rem !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: #4d7496 !important;
+}
+
+.dropdown-menu a:active {
+    background-color: #ffffff !important;
+}
+
+.dropdown-item{
+    color: #000000 !important;
+    padding: .3rem 1rem !important;
+}

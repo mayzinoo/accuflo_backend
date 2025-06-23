@@ -1,0 +1,76 @@
+.grade.box{
+    border:1px solid #d9d9d9;
+}
+.grade.box  p{
+    font-size: 140px;
+    text-align: center;
+}
+.grade.box .content{
+    height:100%;
+}
+.grade.box .ribbon-wrapper{
+    width:65px;
+    height: 81px;
+    overflow:visible;
+}
+.ribbon-text{
+    color:white;
+    background-color: green;
+    width: 100px;
+    top: 15px;
+    position: relative;
+    left: -11px;
+    text-align: center;
+    -webkit-transform: rotate(45deg);
+}
+.ribbon-text::before, .ribbon-text::after{
+    content:"";
+    position: absolute;
+    border-top: 3px solid #61813f;
+    border-left:3px solid transparent;
+    border-right:3px solid transparent;
+    bottom: -3px;
+}
+.ribbon-text::before{
+    left: 0;
+   
+}
+.ribbon-text::after{
+    right:0;
+}
+.performance-text{
+    padding:10px;
+}
+.performance-text ul{
+    display:flex;
+    list-style:none;
+}
+.performance-text ul li{
+    width:33%;
+    text-decoration: none;
+    padding:15px;
+    
+}
+.performance-text ul li:not(:last-child){
+    border-right: 1px solid #d9d9d9;
+}
+
+.card-body .divider{
+    border-top: 1px solid #d9d9d9;
+}
+.performance-text strong{
+    display:block;
+    font-size: 38px;
+    text-align: center;
+}
+.performance-text span{
+    display: block;
+    color: #5d5d5d;
+    font-size: 20px;
+    text-align: center;
+}
+
+#flot-placeholder{
+    width:100%;
+    height:100%;
+}
